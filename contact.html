@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT_PAGE</title>
+
+    <!-- css link::start -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- css link::end -->
+
+    <!-- font awesome cdn link:start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn link:end -->
+
+    <!-- EmailJS cdn::start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <!-- EmailJs cdn::end  -->
+
+</head>
+
+<body>
+    <!-- When user scroll down then show go to Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"
+            aria-hidden="true"></i></button>
+
+
+    <!-- NavBar Section::START -->
+
+    <nav class="nav">
+
+        <div class="nav_container">
+
+            <div class="logo">
+                <img src="images/home_page.png" alt="" style="height: 40px; width: 40px; border-radius: 50%;">
+                <span>DEVELOPER JAMAL</span>
+            </div>
+
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="index.html">Home <span></span></a></li>
+                    <li><a href="about.html">About <span></span></a></li>
+                    <li><a href="services.html">Services<span></span></a></li>
+                    <li><a href="design.html">Design <span></span></a></li>
+                    <li><a href="#" class="active">Contact <span></span></a></li>
+                </ul>
+            </div>
+
+            <div class="media_button">
+                <button class="main_media_button" id="mediaButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- NavBar Section::END -->
+
+    <!-- CONTACT_PAGE_DESIGN:: START -->
+
+    <!-- PAGE_HEAD div::start -->
+    <div class="page_head">
+        <h1><i class="fa fa-video-camera" aria-hidden="true" style="color: #7A55F4;"></i><span style="color: aquamarine;">Meet With Jamal:</span> Find Your Problem's Disitial Solutions.</h1>
+    </div>
+    <!-- PAGE_HEAD div::end -->
+
+    <!-- Contact_Section_Top::START -->
+    <div class="contact-page-body">
+        <h1>Get In Touch</h1>
+
+        <div class="contact_item_container">
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/+8801327491315" target="_blank"><i class="fa fa-whatsapp " aria-hidden="true"></i></a>
+            <span>+8801327491315</span>
+        </div>
+
+        <div class="contact_item_container">
+            <h3>Telegram</h3>
+            <a href="https://t.me/jamal01327491315" target="_blank"><i class="fa fa-telegram " aria-hidden="true"></i></a>
+
+            <span>+8801327491315</span>
+        </div>
+
+        <div class="contact_item_container">
+            <h3>Email</h3>
+            <a href="mailto:livecoderacademy@gmail.com" target="_blank" ><i class="fa fa-envelope-o " aria-hidden="true">
+                </i></a>
+            <span>smjamalhossain551@gmail.com</span>
+        </div>
+    </div>
+    <!-- Contact_Section_Top::END -->
+
+    <!-- Contact Section::Start -->
+    <section class="contact_container">
+
+        <form id="contact-form" class="contact_form">
+
+            <!-- faq ::start -->
+            <div class="faq_section">
+                <h1 class="faq_title">Get A Free Quote</h1>
+
+                <div class="faq">
+
+                    <div class="question">
+                        <h3>What Services Do You Offer Me?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Wants To Build A New Websites?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Wants To Make Your Services Unique?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Have Any Existing Style Guides Or Guidelines?</h3>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- faq::end -->
+
+            <div class="contact_input">
+                <!-- Name -->
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name" required>
+
+                <!-- Email -->
+                <input type="email" id="user_email" name="user_email" placeholder="Your Email" required>
+            </div>
+
+            <div class="contact_input">
+                <!-- Phone -->
+                <input type="number" id="user_phone" name="user_phone" placeholder="Your phone" required>
+
+                <!-- Subject -->
+                <input type="text" id="user_subject" name="user_subject" placeholder="Your subject">
+            </div>
+
+            <!-- Message -->
+            <textarea class="contact_message" name="message" id="message" placeholder="Your Message"
+                required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit" id="submit_btn" class="submit-btn">Submit</button>
+
+
+        </form>
+
+    </section>
+    <!-- Contact Section::End -->
+
+    <!-- CONTACT_PAGE_DESIGN::END -->
+
+
+
+    <!-- FOOTER Section::Start -->
+
+    <section class="footer">
+
+        <div class="footer_top">
+
+            <div class="footer_top_content">
+                <p>About</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer_top_media_icons">
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p> Copyright &copy; 2024 DeveloperJamal.com. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER Section::End -->
+     
+    <script src="function.js"></script>
+</body>
+
+</html>

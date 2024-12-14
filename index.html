@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME_PAGE</title>
+
+    <!-- css link::start -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- css link::end -->
+
+    <!-- font awesome cdn link:start -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome cdn link:end -->
+
+    <!-- EmailJS cdn::start -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- EmailJs cdn::end  -->
+
+</head>
+
+<body>
+
+    <!-- When user scroll down then show go to Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"
+            aria-hidden="true"></i></button>
+    <!-- NavBar Section::START -->
+
+    <nav class="nav">
+
+        <div class="nav_container">
+
+            <div class="logo">
+                <img src="images/home_page.png" alt="logo_image" style="height: 50px; width: 50px; border-radius: 40%;">
+                <span>DEVELOPER JAMAL</span>
+            </div>
+
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="#" class="active">Home <span></span></a></li>
+                    <li><a href="about.html">About <span></span></a></li>
+                    <li><a href="services.html">Services<span></span></a></li>
+                    <li><a href="design.html">Design <span></span></a></li>
+                    <li><a href="contact.html">Contact <span></span></a></li>
+                </ul>
+            </div>
+
+            <div class="media_button">
+                <button class="main_media_button" id="mediaButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- NavBar Section::END -->
+
+    <!-- HOME Section:: START -->
+
+    <section class="home">
+
+        <!--home-description & home-btn::start  -->
+        <div class="home_description_container">
+            <div class="home_description">
+
+                <h1>Hi There,</h1>
+
+                <h2>I'm <span style="color: #920e0e;">Jamal</span> <span style="color: rgb(17, 210, 188);">Hossain</span></h2>
+
+                <p>I'm a Front-End Web Developer, proficient in coding and maintain websites in functionaly and responsively.</p>
+
+            </div>
+
+            <div class="whatsapp_chat_container">
+                <a class="whatsapp_chat_button" href="https://wa.me/+8801327491315" target="_blank">
+                    Chat Now
+                    <img src="images/WhatsApp.png" alt="WhatsApp Icon">
+                </a>
+            </div>
+
+        </div>
+        <!-- -home-description & home-btn::END -->
+
+        <div class="home_image">
+
+            <img src="images/jamal.png" alt="Nature" class="responsive">
+
+        </div>
+    </section>
+
+    <!-- HOME Section::EMND -->
+
+    <!-- ABOUT Section::START -->
+    <section class="about" id="about">
+
+        <div class="about_img_title">
+
+            <div class="about_title_container">
+
+                <div class="title">
+                    <h3><span style="color: #29f4fb;"><i class="fa fa-user-circle-o" aria-hidden="true">NAME:</i></span>Md Jamal Hossain</h3>
+                </div>
+
+                <div class="title">
+                    <h3><span style="color: #29f4fb;"><i class="fa fa-address-book-o" aria-hidden="true">PROFILE:</i></span>Front-End Developer</h3>
+                </div>
+
+                <div class="title">
+                    <h3><span style="color: #29f4fb;"><i class="fa fa-envelope-o" aria-hidden="true">Email:</i></span>smjamalhossain551@gmail.com</h3>
+                </div>
+
+                <div class="title">
+                    <h3><span style="color: #29f4fb;"><i class="fa fa-phone-square" aria-hidden="true">PHONE:</i></span>+8801733024768</h3>
+                </div>
+
+            </div>
+
+            <div class="about_img_container">
+                <img src="images/jamal_2.png" alt="Nature" class="responsive">
+            </div>
+
+        </div>
+
+        <div class="about_me">
+            <h1>About Me</h1>
+            <p class="about_me_description">Hey there, I am <span style="color: #920e0e;">JAMAL</span> <span style="color: rgb(17, 75, 210);">HOSSAIN</span>.Are you looking for a responsive, user-friendly or a dream website for you? So don't worry about it. I am a professional Frontend Web Developer with 2 years of experience. I am highly experience to convert PSD to HTML + PSD to bootstrap + Sketch to HTML + Xd to HTML + Figma to HTML + PDF to html.I specialize in creating pixel-perfect, responsive websites.I have enough experience to get any kind of website done to its best level.I specialize in crafting custom websites and web applications,ensuring they are responsive, user-friendly and visually appealing.Every project I undertake, I prioritize three key aspects: Communication 📩, Quality 🌟, and Support 🤝.I give 100% SATISFACTION GUARANTEE to my clients so work with me and bring more changes to your business.</p>
+            <button class="about_more_btn"><a href="about.html">Learn More &#10095;</a></button>
+        </div>
+
+    </section>
+    <!-- ABOUT Sction::End -->
+
+    
+    <!-- SERVICE Section::Start -->
+    <section class="services_section">
+        <h1 class="services_head"> <span style="color: blueviolet;">SERVICES</span> I PROVIDES</h1>
+        <p class="services_head_desc">As a experienced  Web Developer, I specialize in offering comprehensive services
+            including Web design & Web Development.</p>
+
+        <div class="services_description">
+
+            <div class="card">
+                <img src="images/services-1.jpg" alt="Denim Jeans" style="width:100%" height="500px">
+                <h1>HTML Conversion</h1>
+                <p>The process of converting documents into a format that is compatible with HTML including pdf to html, psd to html,figma to html,jpg to html,png to html,sketch to html with css</p>
+                <button class="card_button_price">Starts From: $30</button>
+                <button class="card_button_link"><a href="services1.html">Learn More &#10095;</a></button>
+            </div>
+
+            <div class="card">
+                <img src="images/services-2.jpg" alt="Denim Jeans" style="width:100%" height="500px">
+                <h1>Web Design & Development</h1>
+                <p>The process of creating a website which involves skills of web design and web development.A website's visual representation and maintain websites functionality. </p>
+                <button class="card_button_price">Starts From: $100</button>
+                <button class="card_button_link"><a href="services2.html">Learn More &#10095;</a></button>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- SERVICE Section::End -->
+
+
+    <!-- Achivement Section::Start -->
+    <div class="achivement_container">
+        <h1>MY ACHIVEMENT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut error quae numquam laborum earum tempora cumque
+            sunt magnam voluptatem id hic.</p>
+        <section class="achivement">
+
+            <div class="slide_container">
+
+                <div class="slides">
+                    <img src="achivement_1.png" alt="" class="achivement_img achivement_active">
+                    <img src="achivement_2.png" alt="" class="achivement_img">
+                    <img src="achivement_3.png" alt="" class="achivement_img">
+                    <img src="achivement_4.png" alt="" class="achivement_img">
+                </div>
+
+                <div class="slide_buttons">
+                    <div class="next">&#10095</div>
+                    <div class="prev">&#10094</div>
+                </div>
+
+                <div class="dotsContainer">
+                    <div class="dot achivement_active" attr="0"></div>
+                    <div class="dot" attr="1"></div>
+                    <div class="dot" attr="2"></div>
+                    <div class="dot" attr="3"></div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <!-- Achivement Section::End -->
+
+    <!-- Contact Section::Start -->
+    <section class="contact_container">
+
+        <form id="contact-form" class="contact_form">
+
+            <!-- faq ::start -->
+            <div class="faq_section">
+                <h1 class="faq_title">Get A Free Quote</h1>
+
+                <div class="faq">
+
+                    <div class="question">
+                        <h3>What Services Do You Offer Me?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Wants To Build A New Websites?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Wants To Make Your Services Unique?</h3>
+                    </div>
+
+                    <div class="question">
+                        <h3>Do You Have Any Existing Style Guides Or Guidelines?</h3>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- faq::end -->
+
+            <div class="contact_input">
+                <!-- Name -->
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name" required>
+
+                <!-- Email -->
+                <input type="email" id="user_email" name="user_email" placeholder="Your Email" required>
+            </div>
+
+            <div class="contact_input">
+                <!-- Phone -->
+                <input type="number" id="user_phone" name="user_phone" placeholder="Your phone" required>
+
+                <!-- Subject -->
+                <input type="text" id="user_subject" name="user_subject" placeholder="Your subject">
+            </div>
+
+            <!-- Message -->
+            <textarea class="contact_message" name="message" id="message" placeholder="Your Message"
+                required></textarea>
+
+            <!-- Submit button -->
+            <button type="submit" id="submit_btn" class="submit-btn">Submit</button>
+
+
+        </form>
+
+    </section>
+    <!-- Contact Section::End -->
+
+    <!-- FOOTER Section::Start -->
+
+    <section class="footer">
+
+        <div class="footer_top">
+
+            <div class="footer_top_content">
+                <p>About</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer_top_media_icons">
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p> Copyright &copy; 2024 DeveloperJamal.com. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER Section::End -->
+
+    <script src="function.js"></script>
+
+</body>
+
+</html>

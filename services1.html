@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES_1</title>
+
+    <!-- css link::start -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- css link::end -->
+
+    <!-- font awesome cdn link:start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn link:end -->
+
+    <!-- EmailJS cdn::start -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <!-- EmailJs cdn::end  -->
+</head>
+
+<body>
+
+    <!-- When user scroll down then show go to Top Button::START -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"
+            aria-hidden="true"></i></button>
+<!-- When user scroll down then show go to Top Button::END -->
+
+    <div class="services1_page_container">
+        <h1 class="services1_title">HTML CONVERSION</h1>
+        <div class="services_catagory_container">
+
+            <img src="images/services-2.jpg" alt="" class="responsive">
+
+            <div class="services_catagory_description">
+
+                <ol type="1">
+                    <li><span style="font-weight: bold; color: rgb(3, 255, 205);">PSD To HTML:</span> Lorem ipsum dolor
+                        sit amet cons ectetur, adipisicing elit. Aperiam est porro veniam velit dolor quibusdam, tempora
+                        eius dolorem nam omnis! Nam nemo ad hic exercitationem neque in eveniet reiciendis error.</li>
+                    <br>
+
+                    <li><span style="font-weight: bold; color: rgb(3, 255, 205);">Figma To HTML:</span> Lorem ipsum
+                        dolor
+                        sit amet consectetur, adipisicing elit. Aperiam est porro veniam velit dolor quibusdam, tempora
+                        eius dolorem nam omnis! Nam nemo ad hic exercitationem neque in eveniet reiciendis error.</li>
+                    <br>
+
+                    <li><span style="font-weight: bold; color: rgb(3, 255, 205);">XD To HTML:</span> Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Aperiam est porro veniam velit dolor quibusdam, tempora
+                        eius dolorem nam omnis! Nam nemo ad hic exercitationem neque in eveniet reiciendis error.</li>
+                    <br>
+
+                    <li><span style="font-weight: bold; color: rgb(3, 255, 205);">Sketch To HTML:</span> Lorem ipsum
+                        dolor
+                        sit amet consectetur, adipisicing elit. Aperiam est porro veniam velit dolor quibusdam, tempora
+                        eius dolorem nam omnis! Nam nemo ad hic exercitationem neque in eveniet reiciendis error.</li>
+                </ol>
+            </div>
+        </div>
+
+        <section class="contact_container">
+
+            <form id="contact-form" class="contact_form">
+                <!-- faq ::start -->
+                <div class="faq_section">
+                    <h1 class="faq_title">What Services Do You Offer Me?</h1>
+                </div>
+                <!-- faq::end -->
+
+                <!-- Name -->
+                <input type="text" id="user_name" name="user_name" placeholder="Your Name" required>
+
+                <!-- Email -->
+                <input type="email" id="user_email" name="user_email" placeholder="Your Email" required>
+
+                <!-- Email -->
+                <input type="number" id="user_phone" name="user_phone" placeholder="Your phone" required>
+
+                <!-- Subject -->
+                <select name="catagory" id="user_subject" required>
+                    <option value="" disabled selected>Choose Your Services Catagory</option>
+                    <option>PSD To HTML</option>
+                    <option>Figma To HTML</option>
+                    <option>XD To HTML</option>
+                    <option>Sketch To HTML</option>
+                </select>
+
+                <!-- Message -->
+                <textarea class="contact_message" name="message" id="message" placeholder="Your Message"
+                    required></textarea>
+
+                <!-- Submit button -->
+                <button type="submit" id="submit_btn" class="submit-btn">Submit</button>
+
+            </form>
+
+        </section>
+
+    </div>
+    <!-- CONTACT_PAGE_DESIGN::END -->
+
+    <!-- FOOTER Section::Start -->
+    <section class="footer">
+
+        <div class="footer_top">
+
+            <div class="footer_top_content">
+                <p>About</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+                <p>Contact</p>
+            </div>
+
+            <div class="footer_top_media_icons">
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom">
+            <p> Copyright &copy; 2024 DeveloperJamal.com. All Rights Reserved.</p>
+        </div>
+    </section>
+    <!-- FOOTER Section::End -->
+
+    <script src="function.js"></script>
+</body>
+
+</html>
